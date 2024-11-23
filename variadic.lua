@@ -1,4 +1,4 @@
-function add(...)
+local function add(...)
 	local s = 0
 	for _, v in ipairs{...} do
 		s = s + v

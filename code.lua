@@ -1,3 +1,3 @@
 io.write("Enter your name: ")
-name = io.read()
+local name = io.read()
 print("Hello, " .. name .. "!")

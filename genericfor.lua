@@ -1,4 +1,4 @@
-function myIterator(s)
+local function myIterator(s)
 	local index = 0
 	local length = #s
 
@@ -11,7 +11,7 @@ function myIterator(s)
 end
 
 
-function genericFor(s)
+local function genericFor(s)
 	for item, idx in myIterator(s) do
 		print(item, idx)
 	end

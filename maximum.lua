@@ -1,4 +1,4 @@
-function maximum (s)
+local function maximum (s)
 	local max = s[1]
 	local maxi = 1
 	for i = 2, #s do
